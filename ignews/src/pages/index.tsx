@@ -1,3 +1,4 @@
+import styles from '../../styles/Home.module.scss'
 export default function Home() {
-  return <h1>Hello</h1>;
+  return <h1 className={styles.title}>Hello</h1>;
 }
