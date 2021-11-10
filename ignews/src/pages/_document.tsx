@@ -5,14 +5,26 @@ export default class MyDocument extends Document {
         return (
 
             <Html>
+
                 <Head>
-                    <title>Document</title>
+
+                    <link rel="preconnect" href="https://fonts.googleapis.com" />
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=Aladin&family=Inter:wght@600;700&family=Montserrat&family=Roboto&display=swap"
+                        rel="stylesheet" />
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=Aladin&family=Inter:wght@600;700&family=Montserrat&family=Roboto:wght@400;500;700&display=swap"
+                        rel="stylesheet" />
+
+                    <title>Ig.news</title>
+
                 </Head>
 
                 <body>
                     <Main />
                     <NextScript />
                 </body>
+
             </Html>
 
         )
