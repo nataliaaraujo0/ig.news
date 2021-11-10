@@ -14,6 +14,8 @@ export default class MyDocument extends Document {
                         href="https://fonts.googleapis.com/css2?family=Aladin&family=Inter:wght@600;700&family=Montserrat&family=Roboto:wght@400;500;700&display=swap"
                         rel="stylesheet" />
 
+                    <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+
                 </Head>
                 <body>
                     <Main />
