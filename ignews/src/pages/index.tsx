@@ -33,7 +33,7 @@ export default function Home({ product }: HomeProps) {
             <span>for {product.amount} month</span>
           </p>
 
-          <SubscribeButton />
+          <SubscribeButton priceId={product.princeId} />
 
         </section>
 
@@ -47,7 +47,7 @@ export default function Home({ product }: HomeProps) {
 export const getServerSideProps: GetServerSideProps = async () => {
 
   const price = await stripe.prices.retrieve('price_1JyPT8F9rYny3aLO6teoV9m4', {
-    expand: ['product']
+
   })
 
   const product = {
