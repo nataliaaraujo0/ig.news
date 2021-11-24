@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { GetServerSideProps } from 'next';
 import { SubscribeButton } from '../components/SubscribeButton';
 import styles from './home.module.scss';
 
@@ -33,4 +34,8 @@ export default function Home() {
       </main>
     </>
   );
+}
+
+export const getServerSideProps: GetServerSideProps = async () => {
+
 }
