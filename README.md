@@ -6,7 +6,7 @@
 # Ignews 
 <img  src ="https://img.shields.io/badge/in%20progress%20-vers%C3%A3o%201-yellow"/>
 
-### Criando um Newsletter sobre repositórios do github de jogos usando JavaScript.
+### Criando um Newsletter sobre repositórios no github de jogos usando JavaScript.
 ![download](https://user-images.githubusercontent.com/81394067/143377764-0a3369b7-d745-42a1-acca-5434058f6a76.png)![4613174591551953706-64](https://user-images.githubusercontent.com/81394067/143377961-fb573687-35d8-47d5-8d9d-a82cc3e2820c.png)
 
 
