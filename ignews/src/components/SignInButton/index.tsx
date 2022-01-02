@@ -9,20 +9,13 @@ export function SignInButton() {
     console.log(session)
 
     return session ? (
-
-        <button className={styles.signInButton}
-            type="button">
+        <button className={styles.signInButton} type="button">
             <FaGithub color="#04d361" />
             Natália Araújo
-            <FiX color="#737380"
-                className={styles.closeIcon} />
+            <FiX color="#737380" className={styles.closeIcon} />
         </button>
-
     ) : (
-        <button type="button">
-            className={styles.signInButton}
-            onClick={() => signIn('github')}
-
+        <button type="button" className={styles.signInButton} onClick={() => signIn('github')}>
             <FaGithub color="#AC5532" />
             Sign in with Github
         </button>
