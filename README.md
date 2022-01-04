@@ -30,6 +30,11 @@
 ```
 
 ```bash
+
+yarn 
+```
+
+```bash
 #Inicialize o next.js
 yarn dev
 ```
