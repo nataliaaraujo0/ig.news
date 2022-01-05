@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "@next-auth/typeorm-legacy-adapter": "^0.1.2-next.20",
+    "@stripe/stripe-js": "^1.22.0",
+    "axios": "^0.24.0",
     "faunadb": "^4.4.1",
     "next": "12.0.3",
     "next-auth": "3.13.2",
