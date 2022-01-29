@@ -26,7 +26,6 @@ export function SubscribeButton({ priceId }: SubscribeButtonProps) {
         } catch (err) {
             alert(err.message)
         }
-
     }
 
     return (
